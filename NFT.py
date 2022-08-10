@@ -67,11 +67,11 @@ async def nft(ctx,   keko):
     ###
 
     textogafas = ["gafascorazon","gafasestrellas"]
-    gafas = Image.open(r"imagenes/" +random.choice(textogafas)+ ".png").convert("RGBA") #imagen de la trozo
-    img1 = gafas.resize((64,110), Image.Resampling.LANCZOS)#tamaño de la pompa
+    gafas = Image.open(r"imagenes/" +random.choice(textogafas)+ ".png").convert("RGBA") #Texto random de las gafas
+    img1 = gafas.resize((64,110), Image.Resampling.LANCZOS)#tamaño de la gafas
 
     tirantes = Image.open(r"imagenes/tirantes.png").convert("RGBA") #imagen de la trozo
-    img1 = tirantes.resize((64,110), Image.Resampling.LANCZOS)#tamaño de la pompa
+    img1 = tirantes.resize((64,110), Image.Resampling.LANCZOS)#tamaño de la tirantes
 
     
     
